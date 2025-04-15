@@ -1,7 +1,6 @@
 ☕ Ukrainian Coffee Sales Dashboard
 
-A complete end-to-end data analytics project that visualizes coffee sales data. This project leverages Python for data extraction, Azure Blob Storage for cloud hosting, and Power BI for dynamic reporting. The dataset originates from Kaggle and tracks sales from a coffee machine in Vinnytsia, Ukraine.
-[View Dataset here](https://www.kaggle.com/datasets/ihelon/coffee-sales/data?select=index_2.csv)
+A complete end-to-end data analytics project that visualizes coffee sales data. This project leverages Python for data extraction and automation, Azure Blob Storage for cloud hosting, and Power BI for dynamic reporting.The dataset originates from [View Dataset here](https://www.kaggle.com/datasets/ihelon/coffee-sales/data?select=index_2.csv) and tracks weekly sales from a coffee vending machine in Vinnytsia, Ukraine. The data pipeline is fully automated—Python retrieves the latest data via the Kaggle API, processes it, and uploads it to Azure Blob Storage. Power BI then pulls directly from this source to keep the dashboard always up-to-date.
 
 📊 Project Overview
 
