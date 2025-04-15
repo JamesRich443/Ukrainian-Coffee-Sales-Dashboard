@@ -31,7 +31,4 @@ Automated cloud-based pipeline from raw CSVs to actionable insights
 ---
 
 ## 🔁 Data Pipeline
-graph TD
-A[Kaggle API] --> B[Python Script]
-B --> C[Azure Blob Storage]
-C --> D[Power BI Dashboard]
+ [Kaggle API] --> B[Python Script] --> [Azure Blob Storage] --> [Power BI Dashboard]
